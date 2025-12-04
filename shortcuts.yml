@@ -20,6 +20,18 @@ cinii 3:
   tags:
    - academic
 
+ndl 1: 
+  url: https://ndlsearch.ndl.go.jp/search?cs=bib&display=panel&from=0&size=20&sort=published:asc&keyword=<query>&f-ht=ndl&f-ht=library&f-mt=dtbook&f-mt=magazine&f-mt=newspaper&f-mt=web&f-mt=dbook&f-mt=ddoc&f-mt=video&f-mt=audio&f-mt=tech&f-mt=other
+  title: National Diet Library catalog search
+  tags:
+   - academic
+
+ndldl 1:
+  url: https://dl.ndl.go.jp/search/searchResult?pageNum=0&pageSize=20&sortKey=ISSUED_ASC&fullText=true&includeVolumeNum=true&keyword=<query>&displayMode=list&accessRestrictions=internet&accessRestrictions=ooc&accessRestrictions=inlibrary
+  title: National Diet Library Digital Collections search
+  tags:
+   - academic
+  
 jstor 1:
   url: https://www.jstor.org/action/doBasicSearch?Query=<query>
   title: JSTOR keyword search
