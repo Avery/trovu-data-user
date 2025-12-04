@@ -22,7 +22,7 @@ cinii 3:
 
 jstor 1:
   url: https://www.jstor.org/action/doBasicSearch?Query=<query>
-  title: JSTOR
+  title: JSTOR keyword search
   tags:
    - academic
 
@@ -38,13 +38,34 @@ tgr 1:
 asahi 0: https://www.asahi.com/
 asahi 1: 
   url: https://sitesearch.asahi.com/sitesearch/?Keywords=<query>
-  title: Asahi shinbun
+  title: Asahi shinbun keyword search
   tags:
   - newspaper
 
 yomiuri 0: https://www.yomiuri.co.jp/
 yomiuri 1:
   url: https://www.yomiuri.co.jp/web-search/?st=1&wo=<query>
-  title: Yomiuri shinbun
+  title: Yomiuri shinbun keyword search
   tags:
   - newspaper
+
+wja 0: https://ja.wikipedia.org/wiki/
+wja 1: https://ja.wikipedia.org/wiki/<query>
+
+wikt 0: https://<$language>.wiktionary.org/wiki/
+wikt 1: https://<$language>.wiktionary.org/wiki/<query>
+  title: Wiktionary
+  tags:
+  - language
+  - wiki
+
+gsc 1:
+  url: https://scholar.google.com/scholar?hl=<$language>&q=<query>
+  title: Google Scholar
+  tags:
+  - google
+  - academic
+  examples:
+  - arguments: chimpsky
+    description: Search Google Scholar for "chimpsky"
+  argumentString: query
