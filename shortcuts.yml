@@ -1,11 +1,19 @@
 # Documentation:
 # https://trovu.net/docs/shortcuts/
 
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q=<query>
-examplekeyword 2:
-  url: http://www.example.com/?q=<query>&p=<puery>
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+cinii 0: https://cir.nii.ac.jp/
+cinii 1: https://cir.nii.ac.jp/all?q=<query>
+  title: CiNii search
   tags:
-  - example
+   - academic
+cinii 2:
+  url: https://cir.nii.ac.jp/articles?q=<q1>&publicationTitle=<q2>
+  title: CiNii publication search
+  description: Searches CiNii for term $1 in journal $2.
+  tags:
+   - academic
+cinii 3: https://cir.nii.ac.jp/articles?q=<q1>&from=<q2>&until=<q3>
+  title: CiNii publication range search
+  description: Searches CiNii for term $1 between years $2 and $3.
+  tags:
+   - academic
