@@ -19,3 +19,32 @@ cinii 3:
   description: Searches CiNii for term $1 between years $2 and $3.
   tags:
    - academic
+
+jstor 1:
+  url: https://www.jstor.org/action/doBasicSearch?Query=<query>
+  title: JSTOR
+  tags:
+   - academic
+
+tgr 1: 
+  url: https://tangorin.com/words?search=<query>
+  title: Japanese-English (Tangorin)
+  tags:
+  - dictionary
+  - english
+  - japanese
+  - language
+
+asahi 0: https://www.asahi.com/
+asahi 1: 
+  url: https://sitesearch.asahi.com/sitesearch/?Keywords=<query>
+  title: Asahi shinbun
+  tags:
+  - newspaper
+
+yomiuri 0: https://www.yomiuri.co.jp/
+yomiuri 1:
+  url: https://www.yomiuri.co.jp/web-search/?st=1&wo=<query>
+  title: Yomiuri shinbun
+  tags:
+  - newspaper
