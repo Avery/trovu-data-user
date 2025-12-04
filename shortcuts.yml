@@ -2,7 +2,8 @@
 # https://trovu.net/docs/shortcuts/
 
 cinii 0: https://cir.nii.ac.jp/
-cinii 1: https://cir.nii.ac.jp/all?q=<query>
+cinii 1:
+  url: https://cir.nii.ac.jp/all?q=<query>
   title: CiNii search
   tags:
    - academic
@@ -12,7 +13,8 @@ cinii 2:
   description: Searches CiNii for term $1 in journal $2.
   tags:
    - academic
-cinii 3: https://cir.nii.ac.jp/articles?q=<q1>&from=<q2>&until=<q3>
+cinii 3:
+  url: https://cir.nii.ac.jp/articles?q=<q1>&from=<q2>&until=<q3>
   title: CiNii publication range search
   description: Searches CiNii for term $1 between years $2 and $3.
   tags:
