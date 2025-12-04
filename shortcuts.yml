@@ -8,13 +8,13 @@ cinii 1:
   tags:
    - academic
 cinii 2:
-  url: https://cir.nii.ac.jp/articles?q=<q1>&publicationTitle=<q2>
+  url: https://cir.nii.ac.jp/articles?q=<query>&publicationTitle=<journal>
   title: CiNii publication search
   description: Searches CiNii for term $1 in journal $2.
   tags:
    - academic
 cinii 3:
-  url: https://cir.nii.ac.jp/articles?q=<q1>&from=<q2>&until=<q3>
+  url: https://cir.nii.ac.jp/articles?q=<query>&from=<start>&until=<end>
   title: CiNii publication range search
   description: Searches CiNii for term $1 between years $2 and $3.
   tags:
