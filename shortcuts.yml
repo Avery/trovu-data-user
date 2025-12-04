@@ -53,7 +53,8 @@ wja 0: https://ja.wikipedia.org/wiki/
 wja 1: https://ja.wikipedia.org/wiki/<query>
 
 wikt 0: https://<$language>.wiktionary.org/wiki/
-wikt 1: https://<$language>.wiktionary.org/wiki/<query>
+wikt 1:
+  url: https://<$language>.wiktionary.org/wiki/<query>
   title: Wiktionary
   tags:
   - language
